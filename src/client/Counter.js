@@ -10,7 +10,7 @@ class Counter extends React.Component {
     this.state = { count: props.count };
 
     this.decrement = this.decrement.bind(this);
-    this.decrement = this.increment.bind(this);
+    this.increment = this.increment.bind(this);
   }
 
   increment() {
